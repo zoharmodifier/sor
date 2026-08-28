@@ -1,0 +1,83 @@
+:root {
+  color-scheme: light dark;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f4f7fb;
+  color: #172033;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  background:
+    radial-gradient(circle at top left, rgb(0 120 212 / 18%), transparent 35%),
+    #f4f7fb;
+}
+
+.card {
+  width: min(100%, 42rem);
+  padding: clamp(2rem, 7vw, 5rem);
+  text-align: center;
+  background: rgb(255 255 255 / 88%);
+  border: 1px solid rgb(23 32 51 / 10%);
+  border-radius: 1.5rem;
+  box-shadow: 0 1.5rem 4rem rgb(23 32 51 / 12%);
+  backdrop-filter: blur(0.75rem);
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  color: #0067b8;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(3rem, 12vw, 6rem);
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+
+.card > p:last-child {
+  margin: 1.5rem auto 0;
+  max-width: 28rem;
+  color: #526079;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background: #0d1424;
+    color: #f4f7fb;
+  }
+
+  body {
+    background:
+      radial-gradient(circle at top left, rgb(0 120 212 / 28%), transparent 35%),
+      #0d1424;
+  }
+
+  .card {
+    background: rgb(21 31 52 / 88%);
+    border-color: rgb(255 255 255 / 10%);
+    box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 25%);
+  }
+
+  .eyebrow {
+    color: #69b9f5;
+  }
+
+  .card > p:last-child {
+    color: #b9c5d8;
+  }
+}
