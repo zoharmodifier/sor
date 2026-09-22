@@ -3,15 +3,659 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A Hello World app hosted on Azure Static Web Apps.">
-    <title>Hello World | Azure Static Web Apps</title>
+    <meta name="description" content="Songs that shaped gaming culture, with listening links, sheet music, and background.">
+    <title>Gaming Songs Playlist</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <main class="card">
-      <p class="eyebrow">Azure Static Web Apps</p>
-      <h1>Hello, world!</h1>
-      <p>Your static web app is ready to deploy to Azure.</p>
+      <header class="page-header">
+        <p class="eyebrow">For your listening pleasure</p>
+        <h1>Gaming Songs</h1>
+        <p class="playlist-link"><a href="https://open.spotify.com/playlist/115E3b7ibKCUOeXOQVNjZs" target="_blank" rel="noopener noreferrer">Listen to the full playlist on Spotify</a></p>
+        <p class="intro">A proposed gaming-themed School of Rock season featuring recognizable hits, meaningful soundtrack moments, deep cuts, and songs that could give performers and audiences something memorable to share.</p>
+      </header>
+      <div id="playlist">
+        <section class="playlist-group" aria-labelledby="section-1">
+          <h2 id="section-1">The Big IPs</h2>
+          <p class="section-summary">This season starts with songs connected to two of the biggest entertainment properties in the world: Minecraft and Pokémon. Jack Black brings a perfect School of Rock connection, while the Pokémon theme offers the kind of instant recognition that can bring an entire audience into the show.</p>
+          <article class="song">
+            <header class="song-header">
+              <h3>I Feel Alive</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Jack Black</dd></div>
+                <div><dt>Origin</dt><dd>Minecraft</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">Starting the season with Jack Black—the star of School of Rock itself—creates an obvious and genuinely fun connection. The song also brings Minecraft, one of the world’s largest entertainment properties, into the set with a big theatrical rock performance.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://musescore.com/user/39593079/scores/24668935" target="_blank" rel="noopener noreferrer">Piano, vocal, and guitar sheet music — MuseScore</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-soundtrack/a-minecraft-movie-i-feel-alive-chords-5750504" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/jack-black-i-feel-alive-tab-s1229826" target="_blank" rel="noopener noreferrer">Guitar tab — Songsterr</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/jack-black-i-feel-alive-alt-tab-sheet-s1349752" target="_blank" rel="noopener noreferrer">Alternate guitar tab — Songsterr</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/1b0glc1z1S4pDyU9WCKohN?utm_source=generator" title="I Feel Alive Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Pokémon Theme</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Jason Paige</dd></div>
+                <div><dt>Origin</dt><dd>Pokémon</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">The Pokémon theme is recognizable within seconds to generations of fans, especially those who grew up in the ’90s and 2000s. Its message of adventure and determination helped turn Pokémon into a worldwide phenomenon and remains one of gaming culture’s great audience sing-alongs.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-cartoons/pokemon-theme-tabs-7636" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-cartoons/pokemon-theme-chords-1172432" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/3mNH9BXFcNElEFbgKqmq1J?utm_source=generator" title="Pokémon Theme Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+        </section>
+
+        <section class="playlist-group" aria-labelledby="section-2">
+          <h2 id="section-2">The Trojan Horse(s)</h2>
+          <p class="section-summary">These songs were not written as traditional game themes, but each found an important place in a major game or game adaptation. They show how licensed music can shape a scene, deepen a story, and become permanently associated with a gaming experience.</p>
+          <article class="song">
+            <header class="song-header">
+              <h3>Paint It, Black</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>The Rolling Stones</dd></div>
+                <div><dt>Origin</dt><dd>Twisted Metal: Black</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">Twisted Metal: Black was an early example of a game using licensed mainstream music to establish its identity. “Paint It, Black” gave the game an immediate sense of darkness and familiarity, and its availability in the School of Rock Method app makes it especially practical for this season.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/the-rolling-stones/paint-it-black-tabs-4035" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/the-rolling-stones/paint-it-black-chords-606572" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/rolling-stones-paint-it-black-tab-s5" target="_blank" rel="noopener noreferrer">Lead guitar tab — Songsterr</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/63T7DJ1AFDD6Bn8VzG6JE8?utm_source=generator" title="Paint It, Black Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Take on Me</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>a-ha</dd></div>
+                <div><dt>Origin</dt><dd>The Super Mario Bros. Movie, The Last of Us</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">“Take on Me” has appeared across gaming-related media, including The Super Mario Bros. Movie and a moving guitar performance in The Last of Us. Those very different uses show how a familiar pop song can bring humor, nostalgia, or emotional weight to a game-inspired story.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://musescore.com/user/36515706/scores/8512976" target="_blank" rel="noopener noreferrer">Solo guitar sheet music and tab — MuseScore</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/aha-take-on-me-tab-s460755" target="_blank" rel="noopener noreferrer">Guitar tab — Songsterr</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/a-ha-take-on-me-a-ha-sheet-s1128803" target="_blank" rel="noopener noreferrer">Sheet music — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/a-ha/take-on-me-chords-390284" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/2WfaOiMkCvy7F5fcp2zZ8L?utm_source=generator" title="Take on Me Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Long Long Time</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Linda Ronstadt</dd></div>
+                <div><dt>Origin</dt><dd>The Last of Us</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">The HBO adaptation of The Last of Us used this Linda Ronstadt ballad at the center of one of its most acclaimed and emotional episodes. Its renewed popularity demonstrated how a story rooted in games can introduce classic music to a new generation and give it powerful new meaning.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/linda-ronstadt/long-long-time-tabs-4661930" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/linda-ronstadt/long-long-time-chords-799262" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/linda-ronstadt/long-long-time-bass-2994581" target="_blank" rel="noopener noreferrer">Bass tab — Ultimate Guitar</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/linda-ronstadt-long-long-time-tab-s677439" target="_blank" rel="noopener noreferrer">Acoustic guitar tab — Songsterr</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/1khA4hwhZD4HMecyE1e9U1?utm_source=generator" title="Long Long Time Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Way to Fall</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Starsailor</dd></div>
+                <div><dt>Origin</dt><dd>Metal Gear Solid 3: Snake Eater</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">“Snake Eater” is the most obvious Metal Gear Solid 3 selection, but its full orchestration would be difficult to reproduce with a standard rock band. “Way to Fall,” which plays over the game’s credits, offers a more practical arrangement while preserving the reflective impact of the ending.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://www.songsterr.com/a/wsa/starsailor-way-to-fall-tab-s54367" target="_blank" rel="noopener noreferrer">Guitar tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/starsailor/way-to-fall-tabs-275139" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://es.ultimate-guitar.com/tab/starsailor/way-to-fall-chords-1735020" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/20fUrFnUxqCJvTO40j6DbA?utm_source=generator" title="Way to Fall Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Nuclear</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Mike Oldfield</dd></div>
+                <div><dt>Origin</dt><dd>Metal Gear Solid V: The Phantom Pain</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">Nuclear disarmament is one of the Metal Gear series’ central themes, and Mike Oldfield’s “Nuclear” expresses that warning with unusual directness and force. Its use around Metal Gear Solid V connected the game’s personal conflicts to the much larger consequences of nuclear violence.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/mike-oldfield/nuclear-chords-1468060" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/mike-oldfield/nuclear-tabs-5080213" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/mike-oldfield/nuclear-guitar-pro-1964720" target="_blank" rel="noopener noreferrer">Guitar Pro tab — Ultimate Guitar</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/mike-oldfield-nuclear-tab-s401572" target="_blank" rel="noopener noreferrer">Solo guitar tab — Songsterr</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/754WgEesWgssZG3XzU9XcG?utm_source=generator" title="Nuclear Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Moonlight Shadow - Remastered 2013</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Mike Oldfield</dd></div>
+                <div><dt>Origin</dt><dd>DanceDanceRevolution 5thMIX</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">Rhythm games such as DanceDanceRevolution open the door to an enormous range of music, which may be stretching the category in the best possible way. “Moonlight Shadow” also brings a personal connection to the set and represents the important role arcade rhythm games played in introducing players to new songs.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://musescore.com/user/8155906/scores/16164358" target="_blank" rel="noopener noreferrer">Solo guitar sheet music, tab, and chords — MuseScore</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/mike-oldfield/moonlight-shadow-tabs-189536" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/mike-oldfield/moonlight-shadow-chords-969267" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/4dAgaMrchuSCRrol1AAthD?utm_source=generator" title="Moonlight Shadow - Remastered 2013 Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Enemy</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Imagine Dragons</dd></div>
+                <div><dt>Origin</dt><dd>League of Legends (Arcane)</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">Whatever reputation the League of Legends community may have, Riot Games has consistently treated music as a major part of its world. “Enemy” helped Arcane reach far beyond the game’s existing audience, though the rapid rap section near the end may require a thoughtful arrangement.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://www.songsterr.com/a/wsa/imagine-dragons-arcane-enemy-tab-s874651" target="_blank" rel="noopener noreferrer">Lead guitar tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-cartoons/arcane-league-of-legends-enemy-tabs-3949394" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-cartoons/arcane-league-of-legends-enemy-chords-3945359" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/5UlnuulVAVmmesw4VzqHdG?utm_source=generator" title="Enemy Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Heavy Is the Crown</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Linkin Park</dd></div>
+                <div><dt>Origin</dt><dd>League of Legends (Arcane)</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">Created for the 2024 League of Legends World Championship, “Heavy Is the Crown” introduced Linkin Park’s new vocal era on one of competitive gaming’s largest stages. It reflects how esports events now use original music to create the scale and identity of major cultural productions.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://musescore.com/user/67092430/scores/22034938" target="_blank" rel="noopener noreferrer">Solo guitar sheet music, tab, and chords — MuseScore</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/linkin-park-heavy-is-the-crown-bass-tab-s740297" target="_blank" rel="noopener noreferrer">Bass tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/linkin-park/heavy-is-the-crown-tabs-5439432" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/linkin-park/heavy-is-the-crown-chords-5437842" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/3fgehc497TFqKH1zBL2YNK?utm_source=generator" title="Heavy Is the Crown Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+        </section>
+
+        <section class="playlist-group" aria-labelledby="section-3">
+          <h2 id="section-3">Cyberpunk</h2>
+          <p class="section-summary">Cyberpunk has enough strong material to support an entire season of its own. The music connects Cyberpunk 2077 and Edgerunners through punk energy, electronic production, and songs that make Night City feel like a culture rather than just a setting.</p>
+          <article class="song">
+            <header class="song-header">
+              <h3>This fffire - New Version</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Franz Ferdinand</dd></div>
+                <div><dt>Origin</dt><dd>Cyberpunk 2077, Cyberpunk: Edgerunners (TV)</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">Franz Ferdinand’s reworked track opens Cyberpunk: Edgerunners with urgency and controlled chaos. The song and its animated title sequence became a defining introduction to the series, bringing many new fans into the wider world of Cyberpunk 2077.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://www.songsterr.com/a/wsa/franz-ferdinand-this-fffire-new-version-tab-s530967" target="_blank" rel="noopener noreferrer">New Version guitar tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/franz-ferdinand/this-fire-tabs-135816" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/franz-ferdinand/this-fire-chords-124722" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/46gSk82duJtX3TTA182ruG?utm_source=generator" title="This fffire - New Version Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Who&#x27;s Ready for Tomorrow</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>RAT BOY, IBDY</dd></div>
+                <div><dt>Origin</dt><dd>Cyberpunk 2077, Cyberpunk: Edgerunners (TV)</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">Heard on Cyberpunk 2077’s in-world radio and used memorably in Edgerunners, this song connects the game and series through a shared musical culture. Its rough, restless energy captures the everyday pressure of life in Night City.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://www.songsterr.com/a/wsa/cyberpunk-2077-soundtrack-whos-ready-for-tomorrow-by-rat-boy-ibdy-tab-s3347233" target="_blank" rel="noopener noreferrer">Full tab — Songsterr</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/cyberpunk-2077-soundtrack-whos-ready-for-tomorrow-by-rat-boy-ibdy-bass-tab-s3347233" target="_blank" rel="noopener noreferrer">Bass tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/cyberpunk-2077-whos-ready-for-tomorrow-tabs-4353881" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/cyberpunk-2077-whos-ready-for-tomorrow-guitar-pro-5343522" target="_blank" rel="noopener noreferrer">Guitar Pro tab — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/4mn5HdatHKN7iFGDes9G8i?utm_source=generator" title="Who&#x27;s Ready for Tomorrow Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Never Fade Away</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>SAMURAI, Refused</dd></div>
+                <div><dt>Origin</dt><dd>Cyberpunk 2077</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">SAMURAI is a fictional band within Cyberpunk 2077, fronted in the story by Johnny Silverhand, the character played by Keanu Reeves. With Refused providing the real-world performance, “Never Fade Away” becomes both a strong rock song and an unusually effective piece of world-building.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://musescore.com/user/39579835/scores/7517405" target="_blank" rel="noopener noreferrer">Solo guitar sheet music and tab — MuseScore</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/cyberpunk-2077-never-fade-away-by-samurai-tab-s3187031" target="_blank" rel="noopener noreferrer">Full tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/cyberpunk-2077-never-fade-away-tabs-5416515" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/cyberpunk-2077-never-fade-away-chords-4142737" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/1AslaQYl1cMb1ItQKmtJer?utm_source=generator" title="Never Fade Away Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+        </section>
+
+        <section class="playlist-group" aria-labelledby="section-4">
+          <h2 id="section-4">Persona</h2>
+          <p class="section-summary">Persona is the other section that could easily become a complete season. The series treats music as a core part of its identity, using memorable vocal tracks to give battles, exploration, and everyday life a style that is immediately recognizable.</p>
+          <article class="song">
+            <header class="song-header">
+              <h3>Life Will Change</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Lyn</dd></div>
+                <div><dt>Origin</dt><dd>Persona 5</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">“Life Will Change” accompanies major confrontations in Persona 5 and gives the Phantom Thieves a musical statement of purpose. Its blend of rock, jazz, and powerful vocals helped establish the game’s rebellious identity and made it one of the series’ signature songs.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://musescore.com/hachitora/life-will-change" target="_blank" rel="noopener noreferrer">Mixed-ensemble sheet music and tabs — MuseScore</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/shoji-meguro-life-will-change-from-persona-5-tab-s453565" target="_blank" rel="noopener noreferrer">Lead guitar tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/persona-5-life-will-change-tabs-2266549" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/shoji-meguro/life-will-change-chords-2886554" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/0LNyWv4RYKbaXIvzk6nMxZ?utm_source=generator" title="Life Will Change Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Take Over</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Lyn</dd></div>
+                <div><dt>Origin</dt><dd>Persona 5 Royal</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">Introduced in Persona 5 Royal, “Take Over” rewards a successful ambush with a bright and confident vocal performance. It is a strong example of how Persona uses music to reinforce player momentum and make even repeat battles feel stylish.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://musescore.com/zaccwith2cs/take-over" target="_blank" rel="noopener noreferrer">Mixed-ensemble sheet music and tabs — MuseScore</a></li>
+                  <li><a href="https://musescore.com/xoinatos/persona-5-the-royal-take-over" target="_blank" rel="noopener noreferrer">Jazz-band sheet music — MuseScore</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/lyn-take-over-persona-5-royal-tab-s500216" target="_blank" rel="noopener noreferrer">Full tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/persona-5-royal-take-over-guitar-pro-4029031" target="_blank" rel="noopener noreferrer">Guitar Pro tab — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/1iNKgHv2k6cB09aB5ozR55?utm_source=generator" title="Take Over Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Rivers in the Desert</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Lollia</dd></div>
+                <div><dt>Origin</dt><dd>Persona 5</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">“Rivers in the Desert” is closely associated with Persona 5’s most important battles, pairing a dramatic vocal melody with a message about persistence under pressure. Its emotional scale has made it a favorite for covers, arrangements, and live performances.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://musescore.com/enochng/rivers_in_the_desert" target="_blank" rel="noopener noreferrer">Original-song mixed-ensemble sheet music and tabs — MuseScore</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/shoji-meguro-rivers-in-the-desert-persona-5-tab-s442914" target="_blank" rel="noopener noreferrer">Original-song rhythm guitar tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/persona-5-rivers-in-the-desert-chords-3703682" target="_blank" rel="noopener noreferrer">Original-song chords — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/persona-5-rivers-in-the-desert-guitar-pro-2437749" target="_blank" rel="noopener noreferrer">Original-song Guitar Pro tab — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/1exHuQRL47c9z64l6qk66u?utm_source=generator" title="Rivers in the Desert Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Time To Make History</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Shihoko Hirata</dd></div>
+                <div><dt>Origin</dt><dd>Persona 4</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">Featured in Persona 4 Golden battles, “Time To Make History” turns regular encounters into energetic pop-rock performances. The song demonstrates how Persona’s vocal battle music can remain exciting through repeated play and succeed as standalone listening.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://www.songsterr.com/a/wsa/shihoko-hirata-time-to-make-history-persona-4-golden-tab-s500132" target="_blank" rel="noopener noreferrer">Full tab — Songsterr</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/shihoko-hirata-benjamin-franklin-time-to-make-history-sheet-s3485868" target="_blank" rel="noopener noreferrer">Sheet music — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/persona-4-golden-time-to-make-history-guitar-pro-4027483" target="_blank" rel="noopener noreferrer">Guitar Pro tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/persona-4-golden-time-to-make-history-chords-3581483" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/26kZFCP0awbGC7IIjx6bY2?utm_source=generator" title="Time To Make History Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Color Your Night</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Lotus Juice, Azumi Takahashi, ATLUS Sound Team, ATLUS GAME MUSIC</dd></div>
+                <div><dt>Origin</dt><dd>Persona 3 Reload</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">“Color Your Night” accompanies evening exploration in Persona 3 Reload, giving ordinary moments a relaxed and contemporary groove. It also comes with a useful endorsement: Bilah has already practiced it and approves.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://www.songsterr.com/a/wsa/persona-3-color-your-night-tab-s645551" target="_blank" rel="noopener noreferrer">Guitar tab — Songsterr</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/persona-3-color-your-night-bass-tab-s645551" target="_blank" rel="noopener noreferrer">Bass tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/persona-3-reload-color-your-night-chords-5331336" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/persona-3-reload-color-your-night-guitar-pro-5192934" target="_blank" rel="noopener noreferrer">Guitar Pro tab — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/4pjFNyjGaoKgLTnndISP6V?utm_source=generator" title="Color Your Night Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+        </section>
+
+        <section class="playlist-group" aria-labelledby="section-5">
+          <h2 id="section-5">Square Enix</h2>
+          <p class="section-summary">The merger of Square and Enix created one of the biggest role-playing-game companies in the industry, along with an enormous catalog of celebrated music. These selections highlight the emotional themes, ambitious arrangements, and dramatic performances associated with Kingdom Hearts and Final Fantasy.</p>
+          <article class="song">
+            <header class="song-header">
+              <h3>Don&#x27;t Think Twice</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Hikaru Utada</dd></div>
+                <div><dt>Origin</dt><dd>Kingdom Hearts III</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">Hikaru Utada has shaped the emotional identity of Kingdom Hearts since the beginning of the series and is the artist behind the best-selling album in Japanese history. “Don’t Think Twice” brings that generational pop legacy to the conclusion of a long-running story about friendship, distance, and reunion.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://www.songsterr.com/a/wsa/hikaru-utada-dont-think-twice-tab-s4064151" target="_blank" rel="noopener noreferrer">Guitar tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/kingdom-hearts-3-dont-think-twice-chords-2552712" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/2Rgf0Ox20oJApEIcd43d4e?utm_source=generator" title="Don&#x27;t Think Twice Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>月を見ていた - Moongazing</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Kenshi Yonezu</dd></div>
+                <div><dt>Origin</dt><dd>Final Fantasy XVI</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">This is the only selection on the list performed in Japanese, but its melody and emotional delivery make it worth the additional casting challenge. With the right singer, it could add a distinctive and memorable performance to the season.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://musescore.com/user/79422589/scores/14401462" target="_blank" rel="noopener noreferrer">Solo piano sheet music — MuseScore</a></li>
+                  <li><a href="https://musescore.com/user/79422535/scores/14338717" target="_blank" rel="noopener noreferrer">Piano and synthesizer sheet music with chords — MuseScore</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/4874087" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/5xoar7MhzRUVqJvGpAtxfP?utm_source=generator" title="月を見ていた - Moongazing Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Hollow</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Yosh</dd></div>
+                <div><dt>Origin</dt><dd>Final Fantasy VII Remake</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">“Hollow” closes Final Fantasy VII Remake with a rock ballad centered on isolation, regret, and uncertainty. It gives a new musical voice to one of gaming’s most celebrated stories while reflecting the remake’s willingness to move into unfamiliar territory.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://musescore.com/user/36002014/scores/9404641" target="_blank" rel="noopener noreferrer">Mixed-ensemble sheet music with lyrics — MuseScore</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/final-fantasy-vii-remake-hollow-chords-3096020" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/final-fantasy-vii-remake-hollow-guitar-pro-3164285" target="_blank" rel="noopener noreferrer">Guitar Pro full-band tab — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/0kCXSowLcpQrFdfihkpMPF?utm_source=generator" title="Hollow Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Otherworld</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Bill Xtillidiex Muir</dd></div>
+                <div><dt>Origin</dt><dd>Final Fantasy X</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">The Spotify player features the official Final Fantasy X recording, while the YouTube link features a remix by composer Nobuo Uematsu’s own rock band. Hearing the two versions together shows how the same composition can support very different singers, arrangements, and performance styles.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://www.songsterr.com/a/wsa/final-fantasy-10-otherworld-tab-s7897" target="_blank" rel="noopener noreferrer">Full tab — Songsterr</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/final-fantasy-10-otherworld-sheet-s7897" target="_blank" rel="noopener noreferrer">Sheet music — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/final-fantasy-x-otherworld-tabs-198382" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/final-fantasy-x-otherworld-bass-186765" target="_blank" rel="noopener noreferrer">Bass tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/final-fantasy-x-otherworld-guitar-pro-2339553" target="_blank" rel="noopener noreferrer">Guitar Pro full-band tab — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/6WGtQKmXCKzvPAFtXOGmNv?utm_source=generator" title="Otherworld Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              <div class="remix">
+                <h4>Remix</h4>
+                <iframe class="youtube-player" data-src="https://www.youtube.com/embed/uVNrhop9fik" title="Otherworld remix video" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy" hidden></iframe>
+                <a class="youtube-fallback" href="https://www.youtube.com/watch?v=uVNrhop9fik" target="_blank" rel="noopener noreferrer">
+                  <img src="https://i.ytimg.com/vi/uVNrhop9fik/hqdefault.jpg" alt="" loading="lazy">
+                  <span>Play the Otherworld remix on YouTube</span>
+                </a>
+                <p><a href="https://www.youtube.com/watch?v=uVNrhop9fik" target="_blank" rel="noopener noreferrer">Watch the remix on YouTube</a></p>
+              </div>
+          </article>
+        </section>
+
+        <section class="playlist-group" aria-labelledby="section-6">
+          <h2 id="section-6">Capcom + SEGA</h2>
+          <p class="section-summary">Capcom and SEGA have a smaller presence on this list, but their influence on gaming is enormous. These songs capture the speed, confidence, and high-energy rock style that have helped define Devil May Cry and Sonic for generations of players.</p>
+          <article class="song">
+            <header class="song-header">
+              <h3>Devil Trigger - Opening Remix</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Yoshiya Terayama, Casey Edwards</dd></div>
+                <div><dt>Origin</dt><dd>Devil May Cry 5</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">This opening remix adapts Nero’s battle theme from Devil May Cry 5 into a concentrated burst of electronic rock. “Devil Trigger” became a modern gaming anthem because its escalating energy matches the series’ emphasis on stylish, expressive combat.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://www.songsterr.com/a/wsa/devil-may-cry-5-devil-trigger-tab-s469352" target="_blank" rel="noopener noreferrer">Original-version solo guitar tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/devil-may-cry-5-devil-trigger-tabs-2613492" target="_blank" rel="noopener noreferrer">Original-version guitar tab — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/0eWFlYBxN2MsLpLjvJfjh5?utm_source=generator" title="Devil Trigger - Opening Remix Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Sonic Boom</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Crush 40</dd></div>
+                <div><dt>Origin</dt><dd>Sonic the Hedgehog CD</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">“Sonic Boom” captures the bright, fast-moving personality associated with Sonic the Hedgehog. It also represents the franchise’s long tradition of vocal themes that fans remember as clearly as the games, characters, and levels themselves.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://www.songsterr.com/a/wsa/crush-40-sonic-boom-tab-s90048" target="_blank" rel="noopener noreferrer">Full tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/crush-40/sonic-boom-guitar-pro-2286833" target="_blank" rel="noopener noreferrer">Guitar Pro tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/crush-40/sonic-boom-chords-5661216" target="_blank" rel="noopener noreferrer">Live-version chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/08v5EKPBTz0KDJi0xa8pwQ?utm_source=generator" title="Sonic Boom Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+        </section>
+
+        <section class="playlist-group" aria-labelledby="section-7">
+          <h2 id="section-7">Still Alive</h2>
+          <p class="section-summary">These two songs somehow share the same title while representing very different sides of game music. Mirror’s Edge uses “Still Alive” to support its reflective, atmospheric world, while Portal turns the phrase into one of gaming’s most memorable musical jokes.</p>
+          <article class="song">
+            <header class="song-header">
+              <h3>Still Alive</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Psycho Crusher, Michirutopia</dd></div>
+                <div><dt>Origin</dt><dd>Mirror&#x27;s Edge</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">The theme associated with Mirror’s Edge complements the game’s clean skyline, constant movement, and underlying sense of vulnerability. Its atmospheric sound helped a visually distinctive new series establish an equally distinctive emotional identity.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://www.songsterr.com/a/wsa/lisa-miskovsky-still-alive-guitar-arrangement-sheet-s1510701" target="_blank" rel="noopener noreferrer">Original-song guitar arrangement sheet music — Songsterr</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/lisa-miskovsky-still-alive-tab-s73080" target="_blank" rel="noopener noreferrer">Original-song solo guitar tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/lisa-miskovsky/still-alive-tabs-785396" target="_blank" rel="noopener noreferrer">Original-song guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/lisa-miskovsky/still-alive-chords-888871" target="_blank" rel="noopener noreferrer">Original-song acoustic chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/57IVLLGsePB9ETSNnfIXFD?utm_source=generator" title="Still Alive Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Still Alive</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Aperture Science Psychoacoustic Laboratories</dd></div>
+                <div><dt>Origin</dt><dd>Portal</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">Written by Jonathan Coulton and performed in character by GLaDOS, “Still Alive” closes Portal with a funny and unexpectedly complete final character moment. The song became one of gaming’s defining credit themes, while “the cake is a lie” became one of the medium’s most durable early memes.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://musescore.com/user/12125/scores/21060" target="_blank" rel="noopener noreferrer">Solo piano sheet music with chords — MuseScore</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/portal-still-alive-bass-tab-s386380" target="_blank" rel="noopener noreferrer">Bass tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/portal-still-alive-tabs-855379" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-computer-games/portal-still-alive-chords-588968" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/5ZRy4M804V6DlmIHroqgJ3?utm_source=generator" title="Still Alive Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+        </section>
+
+        <section class="playlist-group" aria-labelledby="section-8">
+          <h2 id="section-8">Just for fun...</h2>
+          <p class="section-summary">These may be harder to build into full standalone performances, but they could make a fun medley or special segment. Together they celebrate the playful side of gaming culture: television nostalgia, movie callbacks, memes, and music that audiences will recognize almost immediately.</p>
+          <article class="song">
+            <header class="song-header">
+              <h3>Mario Brothers Rap</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Ali Dee</dd></div>
+                <div><dt>Origin</dt><dd>Super Mario Bros. Super Show (TV), The Super Mario Bros. Movie</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">The Mario Brothers Rap originated with The Super Mario Bros. Super Show and returned decades later in The Super Mario Bros. Movie. Its revival turns a wonderfully unusual piece of Mario television history into a fun reward for longtime fans.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <p class="unavailable">No sheet music links are listed.</p>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/5WWMIzuU1YQ5F8DVF9sogd?utm_source=generator" title="Mario Brothers Rap Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Steve&#x27;s Lava Chicken</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Jack Black</dd></div>
+                <div><dt>Origin</dt><dd>A Minecraft Movie</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">This very short comedy song from A Minecraft Movie became Jack Black’s most popular track on Spotify. Its success reflects how quickly Minecraft fans can turn a small musical joke into a shared meme—and it would certainly give the audience an easy chorus.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://musescore.com/user/74759920/scores/24520507" target="_blank" rel="noopener noreferrer">Piano, bass, and drums sheet music — MuseScore</a></li>
+                  <li><a href="https://www.songsterr.com/a/wsa/jack-black-steves-lava-chicken-from-a-minecraft-movie-tab-s1281157" target="_blank" rel="noopener noreferrer">Solo guitar tab — Songsterr</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-soundtrack/a-minecraft-movie-steves-lava-chicken-tabs-5754989" target="_blank" rel="noopener noreferrer">Guitar tab — Ultimate Guitar</a></li>
+                  <li><a href="https://tabs.ultimate-guitar.com/tab/misc-soundtrack/a-minecraft-movie-steves-lava-chicken-chords-5739488" target="_blank" rel="noopener noreferrer">Chords — Ultimate Guitar</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/78HOAddeAcXmcuhoanspry?utm_source=generator" title="Steve&#x27;s Lava Chicken Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>I Wanna Take You for a Ride (Inspired by Marvel vs Capcom 2)</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>The 8-Bit Big Band, Lawrence</dd></div>
+                <div><dt>Origin</dt><dd>Marvel vs. Capcom 2: New Age of Heroes</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">The 8-Bit Big Band and Lawrence transform Marvel vs. Capcom 2’s famous character-select loop into a full ensemble showcase. The arrangement celebrates a phrase that became an enduring arcade meme while demonstrating how much creative potential can exist inside a few seconds of game music.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <ul>
+                  <li><a href="https://chordify.net/chords/the-8-bit-big-band-ft-lawrence-songs/i-wanna-take-you-for-a-ride-inspired-by-marvel-vs-capcom-2-chords" target="_blank" rel="noopener noreferrer">Auto-generated chords — Chordify</a></li>
+                </ul>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/63AX6wMGKgnNpbpcPdPJjs?utm_source=generator" title="I Wanna Take You for a Ride (Inspired by Marvel vs Capcom 2) Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+          <article class="song">
+            <header class="song-header">
+              <h3>Techno Syndrome 2026 (feat. Ed Boon) - from &quot;Mortal Kombat II&quot;</h3>
+              <dl class="song-details">
+                <div><dt>Artist</dt><dd>Olivier Adams, Ed Boon</dd></div>
+                <div><dt>Origin</dt><dd>Mortal Kombat (Movie)</dd></div>
+              </dl>
+            </header>
+            <p class="song-summary">This modern version preserves the driving electronic beat and shouted character names that made the original Mortal Kombat theme instantly recognizable. Few pieces of music are as closely tied to a fighting-game franchise, making it a natural high-energy finale or medley centerpiece.</p>
+              <div class="sheet-music">
+                <h4>Sheet music and tabs</h4>
+                <p class="unavailable">No sheet music links are listed.</p>
+              </div>
+            <iframe class="spotify-player" data-testid="embed-iframe" src="https://open.spotify.com/embed/track/14kkTrO6dOCJH9cIPSPKEA?utm_source=generator" title="Techno Syndrome 2026 (feat. Ed Boon) - from &quot;Mortal Kombat II&quot; Spotify player" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+        </section>
+
+        <section class="playlist-group cheat-code" aria-labelledby="section-9">
+          <h2 id="section-9">Cheat code</h2>
+          <p class="section-summary">If you really want to cheat, you can pull almost anything from this <a href="https://open.spotify.com/playlist/558QSUMLtA4Y1XvIZN8esN" target="_blank" rel="noopener noreferrer">Fortnite playlist on Spotify</a>. Fortnite has licensed a huge catalog of music from mainstream artists, so it is basically a very colorful shortcut to building a gaming-adjacent set.</p>
+        </section>
+      </div>
     </main>
+    <script>
+      if (window.location.protocol === "http:" || window.location.protocol === "https:") {
+        document.querySelectorAll(".remix").forEach((remix) => {
+          const player = remix.querySelector(".youtube-player");
+          const fallback = remix.querySelector(".youtube-fallback");
+
+          player.src = player.dataset.src;
+          player.hidden = false;
+          fallback.hidden = true;
+        });
+      }
+    </script>
   </body>
 </html>
