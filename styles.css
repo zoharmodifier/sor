@@ -19,7 +19,7 @@ body {
 }
 
 .card {
-  width: min(100%, 72rem);
+  width: min(100%, 64.8rem);
   margin: 0 auto;
   padding: clamp(1.5rem, 5vw, 4rem);
   background: rgb(255 255 255 / 88%);
@@ -61,14 +61,14 @@ h1 {
 .playlist-link a {
   display: inline-block;
   padding: 0.65rem 1rem;
-  color: #fff;
-  background: #1d1d1d;
+  color: #000;
+  background: #1db954;
   border-radius: 999px;
   text-decoration: none;
 }
 
 .playlist-link a:hover {
-  background: #3a3a3a;
+  background: #1ed760;
 }
 
 .playlist-group {
@@ -371,15 +371,6 @@ a:hover {
   .playlist-group:nth-child(9) {
     --section-accent: #777;
     --section-surface: #262626;
-  }
-
-  .playlist-link a {
-    color: #171717;
-    background: #f0f0f0;
-  }
-
-  .playlist-link a:hover {
-    background: #fff;
   }
 
   .song {
